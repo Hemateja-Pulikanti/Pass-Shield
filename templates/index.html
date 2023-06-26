@@ -13,7 +13,7 @@
         <h2> Craft Your Personalized Password </h2>
         <form action="/generate" method="post">
             <label for="length">Password Length:</label>
-            <input type="number" id="length" name="length" min="1" required><br><br>
+            <input type="number" id="length" name="length" min="6" max="30" required><br><br>
             <label><input type="checkbox" name="uppercase">Include Uppercase Letters</label><br>
             <label><input type="checkbox" name="lowercase">Include Lowercase Letters</label><br>
             <label><input type="checkbox" name="numbers">Include Numbers</label><br>
